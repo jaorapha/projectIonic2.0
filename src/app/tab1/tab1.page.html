@@ -1,0 +1,72 @@
+<ion-header [translucent]="true">
+  <ion-toolbar color="dark">
+
+    <ion-buttons slot="start">
+      <ion-menu-button></ion-menu-button>
+    </ion-buttons>
+
+    <ion-button class="icons" fill="clear" slot="end">
+      <ion-icon slot="icon-only" name="search"></ion-icon>	
+    </ion-button>
+
+    <ion-button class="icons" fill="clear" slot="end">
+      <ion-icon name="ellipsis-vertical-outline"></ion-icon>
+    </ion-button>
+
+      <ion-title><h1 id="netflix">Netflix</h1></ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-menu contentId="main-content">
+  <ion-header>
+    <ion-toolbar>
+      <ion-title>Menu Content</ion-title>
+    </ion-toolbar>
+  </ion-header>
+  <ion-content class="ion-padding">This is the menu content.</ion-content>
+</ion-menu>
+<div class="ion-page" id="main-content">
+  <ion-header>
+    <ion-toolbar>
+      <ion-buttons slot="start">
+        <ion-menu-button></ion-menu-button>
+      </ion-buttons>
+      <ion-title>Menu</ion-title>
+    </ion-toolbar>
+  </ion-header>
+  <ion-content class="ion-padding"> Tap the button in the toolbar to open the menu. </ion-content>
+</div> 
+
+<ion-content [fullscreen]="true">
+ 
+  <div id="imgSerie">
+    <h1 id="txtTitle">Continuar assistindo</h1>
+   <img src="https://cloudfront-us-east-1.images.arcpublishing.com/estadao/KNY4FR2YCVJ6RMWBZDTAT7YG5Y.jpg" alt="">
+   <p id="txtSubtitle" >Um Maluco no Pedaço: S4:E10 </p>
+   <img id="iconPlay" src="https://cdn-icons-png.flaticon.com/512/0/375.png" alt="">
+  
+  </div>
+  
+
+  <h1 id="myList">My List</h1>  
+
+  <div id="series">
+    
+    <img class="banner" src="https://br.web.img2.acsta.net/pictures/19/07/10/20/01/2331295.jpg" alt="">
+    <img class="banner" src="https://musicnonstop.uol.com.br/wp-content/uploads/2021/08/PT-BR_LCDP_S5_Main_Vertical_RGB_PRE-691x1024.jpg  " alt="">
+    <img class="banner"src="https://tm.ibxk.com.br//ms/images/highlights/000/043/954/41604.jpg" alt="">
+    
+
+  </div>
+
+  <hr>
+  
+  <div id="series">
+    
+    <img class="banner" src="https://onepieceex.net/wp-content/uploads/2023/01/LiveActionOne-Piece-master-691x1024.jpg.webp" alt="">
+    <img class="banner" src="https://uploads.metropoles.com/wp-content/uploads/2020/04/06164308/EL_HOYO_VERTCIAL_RGB-691x1024.jpg" alt="">
+    <img class="banner"src="https://uploads.metropoles.com/wp-content/uploads/2021/10/29113319/PT-BR_MM2_Main_Vertical_RGB_PRE-691x1024.jpg" alt="">
+
+  </div>
+ 
+</ion-content>

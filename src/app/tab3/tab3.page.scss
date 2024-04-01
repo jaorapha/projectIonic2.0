@@ -1,0 +1,59 @@
+ion-content{
+    --background: none;
+    background-color:  #29292b;
+}
+
+#users{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.profiles{
+    width: 23%;
+    height: 23%;
+}
+
+#edit{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 20%;
+}
+
+#pencil{
+    width: 10%;
+    height: 20%;
+}
+ion-button{
+    color: white;
+}
+ion-icon{
+    color: white;
+}
+
+#listBtn{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: start;
+    background-color:#29292b;
+    height: 45%;
+}
+
+.options{
+    border-radius: 20px;
+    background-color:  black ;
+    width: 90%;
+}
+
+#exit{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 20%;
+    border-radius: 12px;
+}
+

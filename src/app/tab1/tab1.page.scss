@@ -1,0 +1,56 @@
+ion-content{
+    --background: none;
+    background-color:  #29292b;
+}
+
+#imgSerie{
+ width: 90%;
+ height: 50%;
+ margin-left: 5%;
+}
+
+#txtTitle{
+    color:white;
+}
+
+#txtSubtitle{
+    position: absolute;
+    top: 41%;
+    color: white;
+}
+
+#netflix{
+    color: red;
+    margin-bottom: 9%;
+}
+
+.icons{
+    color: white; 
+}
+
+#iconPlay{
+    position: relative;
+    width: 30%;
+    height: 20%;
+    bottom: 48%;
+    left: 34%;
+    color: white;
+}
+
+.banner{
+    width: 30%;
+    height: 30%;
+}
+
+#series{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+#myList{
+    position: absolute;
+    color: white;
+    bottom: 49%;
+    left: 3%;
+}

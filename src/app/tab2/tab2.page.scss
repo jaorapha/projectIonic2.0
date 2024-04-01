@@ -1,0 +1,19 @@
+ion-content{
+    --background: none;
+    background-color:  #29292b;
+}
+
+h1{
+    color: white;
+}
+
+#series{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.banner{
+    width: 30%;
+    height: 30%;
+}   
