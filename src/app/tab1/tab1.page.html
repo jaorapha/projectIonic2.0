@@ -1,19 +1,16 @@
 <ion-header [translucent]="true">
-  <ion-toolbar id="navBar"> 
+  <ion-toolbar color="dark">
+
+    <ion-buttons slot="start">
+      <ion-menu-button></ion-menu-button>
+    </ion-buttons>x
+
+
+
       <ion-title><h1 id="netflix">Netflix</h1></ion-title>
   </ion-toolbar>
 </ion-header>
-
-<div class="ion-page" id="main-content">
-  <ion-header>
-    <ion-toolbar>
-      <ion-buttons slot="start">
-        <ion-menu-button></ion-menu-button>
-      </ion-buttons>
-    </ion-toolbar>
-  </ion-header>
-</div> 
-
+  
 <ion-content [fullscreen]="true">
  
   <div id="imgSerie">
@@ -29,7 +26,6 @@
 
   <div class="series">
     
-    
     <img class="banner" src="https://br.web.img2.acsta.net/pictures/19/07/10/20/01/2331295.jpg" alt="">
     <img class="banner" src="https://musicnonstop.uol.com.br/wp-content/uploads/2021/08/PT-BR_LCDP_S5_Main_Vertical_RGB_PRE-691x1024.jpg  " alt="">
     <img class="banner"src="https://tm.ibxk.com.br//ms/images/highlights/000/043/954/41604.jpg" alt="">
@@ -38,25 +34,22 @@
   </div>
 
   <div class="series">
-
-    <ion-button class="watchButtons" routerLink="/about-film">Assistir</ion-button>
-    <ion-button>Assistir</ion-button>
-    <ion-button>Assistir</ion-button>
+    <ion-button  class="botao">Sobre</ion-button>
+    <ion-button  class="botao">Sobre</ion-button>
+    <ion-button  class="botao">Sobre</ion-button>
   </div>
-
-  <hr>
   
   <div class="series">
-    
     <img class="banner" src="https://onepieceex.net/wp-content/uploads/2023/01/LiveActionOne-Piece-master-691x1024.jpg.webp" alt="">
     <img class="banner" src="https://uploads.metropoles.com/wp-content/uploads/2020/04/06164308/EL_HOYO_VERTCIAL_RGB-691x1024.jpg" alt="">
-    <img class="banner"src="https://uploads.metropoles.com/wp-content/uploads/2021/10/29113319/PT-BR_MM2_Main_Vertical_RGB_PRE-691x1024.jpg" alt="">
+     <img class="banner"src="https://uploads.metropoles.com/wp-content/uploads/2021/10/29113319/PT-BR_MM2_Main_Vertical_RGB_PRE-691x1024.jpg" alt="">
+  </div>
 
-  </div>
   <div class="series">
-    <ion-button>Assistir</ion-button>
-    <ion-button>Assistir</ion-button>
-    <ion-button>Assistir</ion-button>
+    <ion-button class="botao">Sobre</ion-button>
+    <ion-button class="botao">Sobre</ion-button>
+    <ion-button class="botao">Sobre</ion-button>
   </div>
+
  
 </ion-content>

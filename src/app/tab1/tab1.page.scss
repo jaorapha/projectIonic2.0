@@ -54,8 +54,14 @@ ion-content{
 
 #myList{
     position: absolute;
-    color: black;
+    color: white;
     bottom: 49%;
     left: 3%;
 }
 
+
+.botao{
+    --background: none;
+    background-color: black;
+    border-radius: 12px;
+}
