@@ -1,0 +1,18 @@
+#img{
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+
+    border: 2px solid red;
+    height: 40%;
+}
+
+#size{
+    width: 70%;
+    height: 100%;
+}
+
+#text{
+    text-align: justify;
+    margin-left: 2%;
+}

@@ -1,6 +1,10 @@
 ion-content{
     --background: none;
-    background-color:  #29292b;
+    background-color:  #ffffc7;
+}
+
+#navBar{
+    background-color: #f0e68c;
 }
 
 #imgSerie{
@@ -10,7 +14,7 @@ ion-content{
 }
 
 #txtTitle{
-    color:white;
+    color:black;
 }
 
 #txtSubtitle{
@@ -42,7 +46,7 @@ ion-content{
     height: 30%;
 }
 
-#series{
+.series{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -50,7 +54,8 @@ ion-content{
 
 #myList{
     position: absolute;
-    color: white;
+    color: black;
     bottom: 49%;
     left: 3%;
 }
+
