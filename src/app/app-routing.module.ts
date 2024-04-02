@@ -12,6 +12,10 @@ const routes: Routes = [
   {
     path: 'about-lacasa',
     loadChildren: () => import('./about-lacasa/about-lacasa.module').then( m => m.AboutLacasaPageModule)
+  },
+  {
+    path: 'about-orange-black',
+    loadChildren: () => import('./about-orange-black/about-orange-black.module').then( m => m.AboutOrangeBlackPageModule)
   }
 ];
 
