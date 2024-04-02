@@ -8,6 +8,10 @@ const routes: Routes = [
   {
     path: 'about-film',
     loadChildren: () => import('./about-film/about-film.module').then( m => m.AboutFilmPageModule)
+  },
+  {
+    path: 'about-lacasa',
+    loadChildren: () => import('./about-lacasa/about-lacasa.module').then( m => m.AboutLacasaPageModule)
   }
 ];
 
