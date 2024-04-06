@@ -24,6 +24,10 @@ const routes: Routes = [
   {
     path: 'about-the-plataform',
     loadChildren: () => import('./about-the-plataform/about-the-plataform.module').then( m => m.AboutThePlataformPageModule)
+  },
+  {
+    path: 'about-the-witcher',
+    loadChildren: () => import('./about-the-witcher/about-the-witcher.module').then( m => m.AboutTheWitcherPageModule)
   }
 ];
 

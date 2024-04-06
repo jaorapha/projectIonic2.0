@@ -1,0 +1,24 @@
+ion-content{
+    --background: none;
+    background-color: #ffffc7;
+}
+
+
+#img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60%;
+    width: 78%;
+    margin-left: 12%;
+}
+
+#size{
+    flex: 1;
+}
+
+#text{
+    color:black;
+    text-align: justify;
+    margin-left: 2%;
+}
