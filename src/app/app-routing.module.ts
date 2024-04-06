@@ -16,6 +16,10 @@ const routes: Routes = [
   {
     path: 'about-orange-black',
     loadChildren: () => import('./about-orange-black/about-orange-black.module').then( m => m.AboutOrangeBlackPageModule)
+  },
+  {
+    path: 'about-one-piece',
+    loadChildren: () => import('./about-one-piece/about-one-piece.module').then( m => m.AboutOnePiecePageModule)
   }
 ];
 
