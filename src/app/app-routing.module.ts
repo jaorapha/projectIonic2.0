@@ -20,6 +20,10 @@ const routes: Routes = [
   {
     path: 'about-one-piece',
     loadChildren: () => import('./about-one-piece/about-one-piece.module').then( m => m.AboutOnePiecePageModule)
+  },
+  {
+    path: 'about-the-plataform',
+    loadChildren: () => import('./about-the-plataform/about-the-plataform.module').then( m => m.AboutThePlataformPageModule)
   }
 ];
 
