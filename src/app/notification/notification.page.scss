@@ -1,0 +1,40 @@
+ion-content{
+    --background: none;
+    background-color: #ffffc7;
+}
+
+h1{
+    color: black;
+}
+
+p{
+    color: black;
+}
+
+#listFilm{
+    display: flex;
+    flex-direction: column;
+    height: 60%;
+    justify-content: space-between;
+
+}
+
+.filmNotification{
+    display: flex;
+    flex-direction: row;    
+    width: 100%;
+    height: 17%;
+}
+
+.legend{
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.imgFilm{
+    width: 23%;
+    height: 100% 
+}
+
+
+

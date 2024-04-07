@@ -28,6 +28,10 @@ const routes: Routes = [
   {
     path: 'about-the-witcher',
     loadChildren: () => import('./about-the-witcher/about-the-witcher.module').then( m => m.AboutTheWitcherPageModule)
+  },
+  {
+    path: 'notification',
+    loadChildren: () => import('./notification/notification.module').then( m => m.NotificationPageModule)
   }
 ];
 
