@@ -32,6 +32,22 @@ const routes: Routes = [
   {
     path: 'notification',
     loadChildren: () => import('./notification/notification.module').then( m => m.NotificationPageModule)
+  },
+  {
+    path: 'my-list',
+    loadChildren: () => import('./my-list/my-list.module').then( m => m.MyListPageModule)
+  },
+  {
+    path: 'about-equalizer',
+    loadChildren: () => import('./about-equalizer/about-equalizer.module').then( m => m.AboutEqualizerPageModule)
+  },
+  {
+    path: 'about-black-klansman',
+    loadChildren: () => import('./about-black-klansman/about-black-klansman.module').then( m => m.AboutBlackKlansmanPageModule)
+  },
+  {
+    path: 'about-rocky',
+    loadChildren: () => import('./about-rocky/about-rocky.module').then( m => m.AboutRockyPageModule)
   }
 ];
 
