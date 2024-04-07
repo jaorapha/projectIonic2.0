@@ -48,6 +48,10 @@ const routes: Routes = [
   {
     path: 'about-rocky',
     loadChildren: () => import('./about-rocky/about-rocky.module').then( m => m.AboutRockyPageModule)
+  },
+  {
+    path: 'page-user',
+    loadChildren: () => import('./page-user/page-user.module').then( m => m.PageUserPageModule)
   }
 ];
 

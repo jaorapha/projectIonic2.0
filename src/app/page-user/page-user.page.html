@@ -1,0 +1,67 @@
+<ion-header [translucent]="true">
+  <ion-toolbar> 
+      <ion-button routerLink="/tabs" class="icons" fill="clear" slot="start"> 
+        <ion-icon name="arrow-back-outline"></ion-icon>
+      </ion-button>
+    <ion-title>Gerenciamento de conta</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+
+  <ion-item class="background">
+    <ion-label>Trocar de conta?</ion-label>
+  </ion-item>
+
+  <ion-item  class="background">
+    <ion-avatar aria-hidden="true" slot="start">
+      <img alt="" src="https://ionicframework.com/docs/img/demos/avatar.svg" />
+    </ion-avatar>
+    <ion-select label="Escolha uma conta" label-placement="stacked">
+      <ion-select-option value="Gustavo">Gustavo</ion-select-option>
+      <ion-select-option value="Vinicius">Vinicius</ion-select-option>
+      <ion-select-option value="João">João</ion-select-option>
+    </ion-select>
+  </ion-item>
+  
+  <ion-list  [inset]="true">
+    <ion-item>
+      <ion-toggle>
+        <ion-label>Desativar as notições</ion-label>
+        <ion-note color="medium">Por tempo indeterminado </ion-note> 
+      </ion-toggle>
+    </ion-item>
+  </ion-list>
+
+<hr>
+
+<ion-item class="background">
+  <ion-label>
+    <h1>Alterar informações</h1>
+  </ion-label>
+</ion-item>
+
+<hr>
+
+<ion-list>
+  <ion-list>
+    <ion-item class="background">
+      <ion-input label="Nome" placeholder="Alterar nome"></ion-input>
+    </ion-item>
+
+    <ion-item class="background">
+      <ion-input label="Senha" placeholder="Alterar Senha"></ion-input>
+    </ion-item>
+
+    <ion-item class="background">
+      <ion-input label="Email" type="email" placeholder="Trocar Email"></ion-input>
+    </ion-item>
+
+    <ion-item class="background">
+      <ion-input label="Telephone" type="tel" placeholder="888-888-8888"></ion-input>
+    </ion-item>
+
+  </ion-list>
+</ion-list>
+  
+</ion-content>
