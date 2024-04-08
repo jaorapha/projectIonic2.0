@@ -52,7 +52,11 @@ const routes: Routes = [
   {
     path: 'page-user',
     loadChildren: () => import('./page-user/page-user.module').then( m => m.PageUserPageModule)
+  },  {
+    path: 'elenco',
+    loadChildren: () => import('./elenco/elenco.module').then( m => m.ElencoPageModule)
   }
+
 ];
 
 @NgModule({
