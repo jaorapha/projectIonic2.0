@@ -1,6 +1,8 @@
 ion-content{
     --background: none;
-    background-color:  #ffffc7;
+    background-image: url(../../assets/fundo/imagemFundo.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
 }
 
 #users{
@@ -38,7 +40,7 @@ ion-icon{
     flex-direction: column;
     justify-content: space-evenly;
     align-items: start;
-    background-color:#ffffc7;
+    --background:none;
     height: 45%;
 }
 
@@ -47,13 +49,5 @@ ion-icon{
     background-color:  black ;
     width: 90%;
 }
-
-#exit{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    height: 20%;
-    border-radius: 12px;
-}
+    
 

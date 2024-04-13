@@ -1,14 +1,16 @@
-ion-content{
+ ion-content{
     --background: none;
-    background-color: #ffffc7;
+    background-image: url(../../assets/fundo/imagemFundo.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
 }
-
+    
 h1{
-    color: black;
+    color: white;
 }
 
 p{
-    color: black;
+    color: white;
 }
 
 #listFilm{
@@ -24,6 +26,12 @@ p{
     flex-direction: row;    
     width: 100%;
     height: 17%;
+    border-top: 2px solid black;
+
+}
+
+#lastFilm{
+    border-bottom: 2px solid black;
 }
 
 .legend{

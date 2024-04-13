@@ -1,6 +1,8 @@
 ion-content{
     --background: none;
-    background-color:  #ffffc7;
+    background-image: url(../../assets/fundo/imagemFundo.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
 }
 
 #navBar{
@@ -18,7 +20,7 @@ ion-content{
 }
 
 #txtTitle{
-    color:black;
+    color:white;
 }
 
 #txtSubtitle{
@@ -28,7 +30,7 @@ ion-content{
 }
 
 #netflix{
-    color: red;
+    color: #0075e9;
     margin-bottom: 9%;
 }
 
@@ -58,7 +60,7 @@ ion-content{
 
 #myList{
     position: absolute;
-    color: black;
+    color: white;
     bottom: 49%;
     left: 3%;
 }

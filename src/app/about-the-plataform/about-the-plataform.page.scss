@@ -1,8 +1,9 @@
 ion-content{
     --background: none;
-    background-color: #ffffc7;
+    background-image: url(../../assets/fundo/imagemFundo.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
 }
-
 
 #img{
     display: flex;
@@ -18,7 +19,7 @@ ion-content{
 }
 
 #text{
-    color:black;
+    color: white;
     text-align: justify;
     margin-left: 2%;
 }
