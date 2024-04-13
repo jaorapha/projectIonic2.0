@@ -6,6 +6,7 @@ ion-content{
 }
 
 #users{
+    margin-top: 60px;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -24,14 +25,22 @@ ion-content{
     height: 20%;
 }
 
+#gerenciar{
+    
+    font-weight: bold;
+}
+
 #pencil{
+    margin-left: 10px;
     width: 10%;
     height: 20%;
 }
 ion-button{
+
     color: white;
 }
 ion-icon{
+margin-right: 10px;
     color: white;
 }
 
@@ -40,14 +49,36 @@ ion-icon{
     flex-direction: column;
     justify-content: space-evenly;
     align-items: start;
+<<<<<<< HEAD
     --background:none;
     height: 45%;
+=======
+    background-color:#ffffc7;
+    height: 30%;
+>>>>>>> f842ff73a056af3a9db6152af5c800793ae287a7
 }
 
 .options{
-    border-radius: 20px;
+    margin-left: 20px;
+    border-radius: 7px;
     background-color:  black ;
     width: 90%;
-}
     
+}
+<<<<<<< HEAD
+    
+=======
+
+#exit{
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 120px;
+    margin-left: 142px;
+    height: 5%;
+    width: 20%;
+    border-radius: 7px;
+}
+>>>>>>> f842ff73a056af3a9db6152af5c800793ae287a7
 
