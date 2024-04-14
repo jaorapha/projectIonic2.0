@@ -1,13 +1,22 @@
-#img{
+ion-content{
     --background: none;
-    background-image: url(../../assets/fundo/imagem\ de\ fundo.jpg);
+    background-image: url(../../assets/fundo/imagemFundo.jpg);
     background-repeat: no-repeat;
     background-size: 100% 100%;
+
+}
+
+#img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60%;
+    width: 78%;
+    margin-left: 12%;
 }
 
 #size{
-    width: 70%;
-    height: 100%;
+   flex: 1;
 }
 
 #text{
