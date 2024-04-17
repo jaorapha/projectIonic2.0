@@ -55,6 +55,10 @@ const routes: Routes = [
   },  {
     path: 'elenco',
     loadChildren: () => import('./elenco/elenco.module').then( m => m.ElencoPageModule)
+  },
+  {
+    path: 'cast-equalizer',
+    loadChildren: () => import('./cast-equalizer/cast-equalizer.module').then( m => m.CastEqualizerPageModule)
   }
 
 ];
