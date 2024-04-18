@@ -71,6 +71,22 @@ const routes: Routes = [
   {
     path: 'cast-rocky',
     loadChildren: () => import('./cast-rocky/cast-rocky.module').then( m => m.CastRockyPageModule)
+  },
+  {
+    path: 'cast-the-witcher',
+    loadChildren: () => import('./cast-the-witcher/cast-the-witcher.module').then( m => m.CastTheWitcherPageModule)
+  },
+  {
+    path: 'cast-orange-black',
+    loadChildren: () => import('./cast-orange-black/cast-orange-black.module').then( m => m.CastOrangeBlackPageModule)
+  },
+  {
+    path: 'cast-the-plataform',
+    loadChildren: () => import('./cast-the-plataform/cast-the-plataform.module').then( m => m.CastThePlataformPageModule)
+  },
+  {
+    path: 'cast-la-casa',
+    loadChildren: () => import('./cast-la-casa/cast-la-casa.module').then( m => m.CastLaCasaPageModule)
   }
 
 ];
