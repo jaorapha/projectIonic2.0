@@ -63,6 +63,14 @@ const routes: Routes = [
   {
     path: 'cast-one-piece',
     loadChildren: () => import('./cast-one-piece/cast-one-piece.module').then( m => m.CastOnePiecePageModule)
+  },
+  {
+    path: 'cast-black-klansman',
+    loadChildren: () => import('./cast-black-klansman/cast-black-klansman.module').then( m => m.CastBlackKlansmanPageModule)
+  },
+  {
+    path: 'cast-rocky',
+    loadChildren: () => import('./cast-rocky/cast-rocky.module').then( m => m.CastRockyPageModule)
   }
 
 ];
